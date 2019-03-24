@@ -11,8 +11,7 @@ import * as serviceWorker from './serviceWorker';
 // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
 
-let element  = React.createElement('h1',{classname:'Greetings'},'Buongiorno');
+var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world!');
+ReactDOM.render(element, document.getElementById('root'));
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-registerServiceWorker();
