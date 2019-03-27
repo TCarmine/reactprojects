@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+/ori_src
 # production
 /build
 
